@@ -1,0 +1,53 @@
+version: "3.1"
+nlu:
+- intent: order_food
+  examples: |
+    - I want to order pizza
+    - Can I get a burger?
+    - I would like some sushi
+    - I’d like to have a salad
+    - Can you bring me some fries?
+    - I want to order pasta
+    - Please order a cheeseburger for me
+    - I'd like to try the tacos
+    - Can I have a dessert menu?
+    - Order me a vegan dish
+
+- intent: get_menu
+  examples: |
+    - What do you have on the menu at [Italian Bistro](restaurant_name)?
+    - Show me the menu for [Sushi Place](restaurant_name).
+    - List your dishes at [Taco House](restaurant_name).
+    - Can I see your menu for [Burger Joint](restaurant_name)?
+    - Do you have a menu available for [Vegan Cafe](restaurant_name)?
+    - What are the specials today at [Pasta Palace](restaurant_name)?
+    - Please show me the available items at [Coffee Corner](restaurant_name).
+    - What food options do you offer at [Steak House](restaurant_name)?
+    - Can I have the drink menu for [Deli Delight](restaurant_name)?
+    - What is on the menu tonight at [Seafood Shack](restaurant_name)?
+
+- intent: get_restaurants
+  examples: |
+    - What restaurants do you have?
+    - List all the restaurants
+    - Show me the available restaurants
+    - Can you give me a list of restaurants?
+    - What are the different restaurants available?
+    - I want to see the restaurants you have
+    - Tell me about the restaurants in the area
+    - Which restaurants can I order from?
+    - Are there any restaurants nearby?
+    - Can you recommend some restaurants?
+
+- intent: fallback
+  examples: |
+    - I'm not sure what I want
+    - Can you help me with something else?
+    - What's the weather like?
+    - Tell me a joke
+    - I want to talk about sports
+    - What time is it?
+    - Can you suggest a movie?
+    - I have a question about something else
+    - I want to change the subject
+    - Can you tell me about yourself?
